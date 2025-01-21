@@ -21,8 +21,8 @@
 1. リポジトリをクローンします。
 
    ```bash
-   git clone https://github.com/yourusername/face-detect-sample.git
-   cd face-detect-sample
+   git clone https://github.com/okamyuji/face_detect_sample.git
+   cd face_detect_sample
    ```
 
 2. 必要なGoパッケージをインストールします。

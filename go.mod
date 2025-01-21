@@ -1,4 +1,4 @@
-module github/okamyuji/face-detect-sample
+module github/okamyuji/face_detect_sample
 
 go 1.21
 
