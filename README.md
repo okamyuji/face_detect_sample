@@ -60,6 +60,7 @@
 
 ## プロジェクト構成
 
+```shell
 face_detect_sample/
 ├── main.go
 ├── data/
@@ -68,6 +69,7 @@ face_detect_sample/
 └── web/
   └── templates/
     └── index.html
+```
 
 ## main.goの概要
 
