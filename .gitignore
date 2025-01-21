@@ -1,0 +1,103 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Go言語特有の設定
+# バイナリファイル
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# テストバイナリ
+*.test
+
+# カバレッジファイル
+*.out
+
+# Go特有のワークスペース
+go.work
+
+# 依存関係
+vendor/
+
+# デバッグファイル
+debug
+
+# air用の一時ディレクトリ
+tmp/
+
+# このプロジェクト特有の設定
+# 画像キャプチャの一時ファイル
+*.jpg
+*.jpeg
+*.png
+
+# 顔検出の一時データ
+face_*.xml
+
+# ビルド成果物
+face_detect_sample
+face-detect-sample
+
+# ログファイル
+*.log
+
+# 環境設定ファイル
+.env
+.env.local
+
+# キャッシュディレクトリ
+.cache/
+
+# プロジェクト特有の一時ディレクトリ
+data/*
+!data/.gitkeep
+!data/haarcascade_frontalface_default.xml
+!data/haarcascade_eye.xml
+
+# WebSocket関連の一時ファイル
+ws_*.json
+
+# プロファイリングデータ
+*.prof
+*.trace
+
+main
